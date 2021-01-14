@@ -4,18 +4,18 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_mrz_scanner'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A new Flutter plugin.'
   s.description      = <<-DESC
 A new Flutter plugin.
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Dscale' => 'ayisha.farhan@dscale.io' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'SwiftyTesseract', '~> 3.0'
+  s.dependency 'SwiftyTesseract', '~> 3.1.3'
   s.platform = :ios, '12.0'
   # s.resource_bundles = {"TraineedDataBundle" => ["tessdata/*"] }
   s.resources = ['Assets/TraineedDataBundle.bundle']
